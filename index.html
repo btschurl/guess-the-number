@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GUESS THE NUMBER v1.0</title>
+    <meta
+      name="description"
+      content="Basic version of Guess the number game in JS."
+    />
+    <meta name="author" content="BETEE Bartłomiej Tschurl" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="reset-dist.css" rel="stylesheet" />
+    <link href="styles-dist.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>GUESS THE NUMBER</h1>
+    </header>
+    <main>
+      <p id="msg_hello"></p>
+      <input type="number" id="number_value" value="1" min="1" max="20" />
+      <button type="button" id="btn_guess">GUESS</button>
+      <button type="button" id="btn_reset">RESET</button>
+      <span id="final_message"></span>
+      <span id="win_loss" class="text_red"></span>
+    </main>
+    <footer>
+      Made with ♥️ by
+      <a href="http://www.betee.pl" alt="Bartłomiej Tschurl"
+        >Bartłomiej Tschurl</a
+      >
+      in 2024
+    </footer>
+    <script src="script-dist.js"></script>
+  </body>
+</html>
